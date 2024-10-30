@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "definitelym-pale-planet-17"
-          entrypoint: "output/server/index.js"
-          root: ".svelte-kit"
+          project: "definitelym-pale-planet-39"
+          entrypoint: "index.js"
+          root: "build"
           
           
